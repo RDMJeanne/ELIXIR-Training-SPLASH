@@ -12,7 +12,7 @@ Resources are located in the `pages/resources/` directory. To add a new resource
 
 1. Navigate to [`pages/resources/`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/tree/main/pages/resources)
 2. Copy the [`TEMPLATE_resource_page.md`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/main/pages/resources/TEMPLATE_resource_page.md) file
-3. Rename it using lowercase with hyphens (e.g., `my-new-resource.md`)
+3. Rename it using lowercase with hyphens aka kebab-case (e.g., `my-new-resource.md`)
 4. Fill in the metadata fields (see below)
 
 ### 2. Fill in the resource metadata
@@ -30,8 +30,8 @@ description: |                 # Brief description (can be multiline markdown)
   Short description of the resource
 objective: |                   # What the resource aims to achieve
   Main objectives and goals
-contributors: [Name One, Name Two]  # List of contributors
-coordinators: [Name One]       # Resource coordinators (must also be in contributors)
+contributors: [Name One, Name Two]  # List of contributors responsible for the SPLASH resource listing
+
 contacts:                      # Contact information
   - name: Contact Name
     email: contact@example.org
@@ -114,7 +114,7 @@ Name Surname:
   orcid: 0000-0000-0000-0000
   affiliation: Institution Name
 ```
-
+(The 'role' key is only used for editorial team members)
 ## Tag System for Resources
 
 The tag system allows you to categorize resources with colored badges that appear on resource cards. Tags are centrally managed in `_data/resource_tags.yml` to ensure consistency across the site.
@@ -122,10 +122,10 @@ The tag system allows you to categorize resources with colored badges that appea
 ## Tag Categories
 
 Tags are organized into categories defined in `_data/tag_categories.yml`. Each category has an associated color that applies to all tags within that category. Common categories include:
-- **Organization** (red) - Resources affiliated with specific organizations
+- **Organization** - Resources affiliated with specific organizations or collaborative networks
 - **Node** (gray) - Resources specific to ELIXIR national nodes
-- **Lifecycle** (green) - Training development phases (Plan, Design, Develop, Deliver, Evaluate)
-- **Topic** (blue) - Subject areas and themes
+- **Lifecycle** - Training development phases (Plan, Design, Develop, Deliver, Evaluate)
+- **Topic** - Subject areas and themes covered by the resource
 
 To see current tags and categories, refer to:
 - [`_data/resource_tags.yml`](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/main/_data/resource_tags.yml) - All available tags
@@ -235,7 +235,7 @@ This component:
 
 ### Tag Ordering
 
-Tags are displayed in the order they appear in `_data/resource_tags.yml`, NOT alphabetically. This allows you to control the visual priority of tags by reordering them in the file.
+Tags are displayed in the order they appear in `_data/resource_tags.yml`, NOT alphabetically. 
 
 ### Filtering Behavior
 
