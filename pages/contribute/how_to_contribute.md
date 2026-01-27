@@ -25,9 +25,10 @@ The easiest way to suggest improvements, report problems or request new content:
 
 ## Before you contribute
 
+* Check the [technical documentation](technical_documentation) for guidelines on file structure, naming conventions, and metadata
 * Follow our [style guide](style_guide) for consistency
 * Respect copyright - see our [copyright guidelines](copyright)
-* Review the [page metadata guide](https://elixir-belgium.github.io/elixir-toolkit-theme/page_mechanics) to understand how to structure your content
+* Check out the [ETT documentation](https://elixir-belgium.github.io/elixir-toolkit-theme) for further functionality of the website
 * Acknowledge co-contributors in your page metadata with their permission
 
 ## Contributor acknowledgement
