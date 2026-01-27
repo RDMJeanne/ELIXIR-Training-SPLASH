@@ -123,7 +123,7 @@ The tag system allows you to categorize resources with colored badges that appea
 
 Tags are organized into categories defined in `_data/tag_categories.yml`. Each category has an associated color that applies to all tags within that category. Common categories include:
 - **Organization** - Resources affiliated with specific organizations or collaborative networks
-- **Node** (gray) - Resources specific to ELIXIR national nodes
+- **Node** - Resources that are in the service delivery plan of a specific node```
 - **Lifecycle** - Training development phases (Plan, Design, Develop, Deliver, Evaluate)
 - **Topic** - Subject areas and themes covered by the resource
 
