@@ -3,8 +3,8 @@ title_url: /how_to_contribute
 subitems:
   - title: Contributing via GitHub
     url: /contributing_via_github
-  - title: Adding resources
-    url: /adding_resources
+  - title: Technical documentation
+    url: /technical_documentation
   - title: For editors
     subitems:
     - title: Editorial team guide
