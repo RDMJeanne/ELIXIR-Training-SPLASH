@@ -32,7 +32,7 @@ The easiest way to suggest improvements, report problems or request new content:
 
 ## Contributor acknowledgement
 
-Contributors listed in page metadata appear at the bottom of each page and on our [contributors page](contributors). To link your GitHub, ORCID or email, add your details to the [CONTRIBUTORS file](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/CONTRIBUTORS.yml).
+Contributors listed in page metadata appear on our [contributors page](contributors). To link your GitHub, ORCID or email, add your details to the [CONTRIBUTORS file](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/CONTRIBUTORS.yml).
 
 ## Content ownership and governance
 
