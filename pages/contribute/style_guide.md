@@ -13,7 +13,7 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
 
 ## Text
   * **Acronyms:** use the [glossary file](_data/glossary.yml) and [these instructions](https://github.com/erikw/jekyll-glossary_tooltip#usage) to spell out acronyms in an accessible way.
-  * **Ampersands:** do not use these in the main text or headings. It is fine to use them in menus, if you need to save space.
+  * **Ampersands(&):** do not use these in the main text or headings. It is fine to use them in menus, if you need to save space.
   * **Capitals:** do not use all capitals for emphasis or in headings.
   * **Data:** treat as singular ("Data is..."). (Whether "data" is singular or plural is contentious - see the [Wikipedia article](https://en.wikipedia.org/wiki/Data_(word)) and this [Guardian article](https://www.theguardian.com/news/datablog/2010/jul/16/data-plural-singular).)
   * **Dates:** use Wednesday 7 July 2021 (not Wednesday 7th July 2021, or other variations).
@@ -49,7 +49,6 @@ In general, we follow the European Commission's [Web Writing Style Guide](https:
     * "The cat that was on the table suddenly got up" is telling us which cat it was. It is important to the meaning of the sentence because you are not talking about any cat, just the cat on the table.
     * "The cat, which was sitting on the table, suddenly got up" is giving us extra information about the cat. The information is not necessary to understand the sentence. You can remove the clause and the sentence will still be clear. Clauses starting with "which" usually begin with a comma.
   * **Titles (the "title" in the front matter of pages):** only the first word, proper nouns and acronyms are capitalised.
-  * **Tool assembly:** there are multiple tools in **one** assembly. The plural is "tool assemblies".
   * **Training:** training is an uncountable noun and cannot have a plural. You can write "training courses" and "training materials" but not "trainings".
 
 ## Graphic design
