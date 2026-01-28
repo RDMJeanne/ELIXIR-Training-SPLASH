@@ -36,7 +36,7 @@ layout: default
     
     <!-- STICKY RIGHT SIDEBAR -->
     <div id="toc" class="text-muted sticky-xl-top">
-        {%- unless page.logo == nil or page.logo == false %}
+        {%- if page.logo %}
         <div class="text-center mb-3">
             {%- if page.resourceUrl %}
                 <a href="{{ page.resourceUrl }}" target="_blank">
@@ -46,17 +46,17 @@ layout: default
                 <img src="assets/img/logos/{{ page.logo }}">
             {%- endif %}
         </div>
-        {%- endunless %}
+        {%- endif %}
 
         {%- unless page.toc == false %}
             {%- include toc.html %}
         {%- endunless %}
 
-        {%- unless page.joinLink == nil or page.joinLink == false %}
+        {%- if page.joinLink %}
             <a class="btn btn-primary mt-3" id="join-mailing-list" href="{{ page.joinLink }}" target="_blank">
                 Join this product
             </a>
-        {% endunless %}
+        {% endif %}
     </div>
 
     <!-- CONTENT -->
@@ -68,18 +68,18 @@ layout: default
         <h2>What can you do with {{ page.title }}</h2>
         {{ page.objective | markdownify }}
 
-        {%- unless page.mission == nil or page.mission == false %}
+        {%- if page.mission %}
             <h2>Our mission</h2>
             {{ page.mission | markdownify }}
-        {% endunless %}
+        {% endif %}
 
-        {%- unless page.benefit == nil or page.benefit == false %}
+        {%- if page.benefit %}
             <h2>Benefit</h2>
             {{ page.benefit | markdownify }}
-        {% endunless %}
+        {% endif %}
 
         <!-- BLOCK 2 -->
-        {%- unless page.licenses == nil or page.licenses == false %}
+        {%- if page.licenses %}
         <h2>Resource licenses</h2>
             {% for license in page.licenses %}
                 <div class="row">
@@ -88,10 +88,10 @@ layout: default
                     </div>
                 </div>
             {% endfor %}
-        {% endunless %}
+        {% endif %}
 
         <!-- MULTIMEDIA SUPPORT -->
-        {%- unless page.screenshots == nil or page.screenshots == false %}
+        {%- if page.screenshots %}
             <div id="carouselScreenshots" class="carousel carousel-dark rounded slide">
                 <div class="carousel-indicators">
                     {% assign maxIndex = page.screenshots.size | minus: 1 %}
@@ -117,18 +117,18 @@ layout: default
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        {%- endunless %}
+        {%- endif %}
 
-        {%- unless page.video == nil or page.video == false %}
+        {%- if page.video %}
             <h2 class="visually-hidden">Video</h2>
             <iframe class="mt-3" width="560" height="315" src={{ page.video }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        {% endunless %}
+        {% endif %}
 
 
         {% include testimonials.html toolId=page.id %}
 
         <!-- BLOCK 3 -->
-        {%- unless page.publications == nil or page.publications == false %}
+        {%- if page.publications %}
         <h2>Publications</h2>
             {% for publication in page.publications %}
                 <div class="row">
@@ -137,17 +137,14 @@ layout: default
                     </div>
                 </div>
             {% endfor %}
-        {% endunless %}
+        {% endif %}
 
         
         <!-- BLOCK 4 -->
         {{content}}
-
-        <!-- BLOCK 5 -->
-        <!-- CITATIONS -->
         
-        <!-- BLOCK 6 -->
-        {%- unless page.contacts == nil or page.contacts == false %}
+        <!-- BLOCK 5 -->
+        {%- if page.contacts %}
             <h2>Contacts</h2>
             {% for contact in page.contacts %}
                 <div class="row">
@@ -156,15 +153,15 @@ layout: default
                     </div>
                 </div>
             {% endfor %}
-        {% endunless %}
+        {% endif %}
 
-        {%- unless page.mailingList == nil or page.mailingList == false %}
-            <a class="btn btn-primary mt-3" id="join-mailing-list">
+        {%- if page.mailingList %}
+            <a class="btn btn-primary mt-3" href="{{ page.mailingList }}" target="_blank">
                 Subscribe to the mailing list
             </a>
-        {% endunless %}
+        {% endif %}
 
-        {%- unless page.funding == nil or page.funding == false %}
+        {%- if page.funding %}
         <h2>Funding</h2>
         <div class="row">
         {% for funder in page.funding %}
@@ -173,7 +170,7 @@ layout: default
             </div>
         {% endfor %}
         </div>
-        {% endunless %}
+        {% endif %}
 
 
         {% include resource-table-page.html %}
