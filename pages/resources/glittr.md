@@ -9,10 +9,6 @@ description: |
 objective: |
   With the application, users can search and compare educational materials based on topic and author, but also on engagement metrics such as stargazers (bookmarks) and recency (days since last commit). This allows users to find high-quality and up-to-date materials that are actively maintained by their authors.
 
-contributors:
-  - Geert van Geest
-  - Patricia Palagi
-
 contacts:
   - name: Glittr.org contact
     email: info@glittr.org

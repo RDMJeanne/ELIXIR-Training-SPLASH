@@ -29,9 +29,6 @@ benefit: |
  
   In conclusion, training certifications offer a multitude of benefits and exciting visions for individuals. From validation and structured learning to access to relevant materials, certifications empower learners to excel in their chosen fields.
 
-contributors:
-  - Daniel Wibberg
-
 contacts:
   - name: Daniel Wibberg
     email: d.wibberg@fz-juelich.de

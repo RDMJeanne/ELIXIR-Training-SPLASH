@@ -16,11 +16,6 @@ objective: |
 
 tags: [elixir, design, develop, fair-training, train-the-trainer]
 
-
-contributors:
-  - Bruna Piereck
-  - Geert van Geest
-
 #OPTIONAL FIELDS
 tags: [elixir, fair-training, design, develop]
 
