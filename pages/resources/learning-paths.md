@@ -15,10 +15,6 @@ objective: |
 #OPTIONAL FIELDS
 tags: [elixir, plan, design, learning-paths, community]
 
-contributors:
-  - Alexia Cardona
-  - Jessica Lindvall
-  - Loredana Le Pera
 contacts:
   - name: Learning Paths
     email: learning-paths@elixir-europe.org

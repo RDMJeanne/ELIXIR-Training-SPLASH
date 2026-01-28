@@ -16,8 +16,6 @@ objective: |
 
 tags: [elixir, train-the-trainer, plan, design, develop, deliver, evaluate]
 
-
-contributors: [Allegra Via, Gil Poiares-Oliveira]
 contacts:
   - name: Allegra Via
     email: allegra.via@uniroma1.it

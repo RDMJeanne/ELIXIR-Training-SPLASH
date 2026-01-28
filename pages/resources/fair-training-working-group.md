@@ -16,11 +16,6 @@ objective: |
     - Mutual events between communities: meetings, workshops or other activities
 
 tags: [elixir, design, develop, fair-training, community]
-    
-contributors:
-  - Geert Van Geest
-  - Sara Morsey
-  - Zoi Litou
 
 contacts:
   - name: Geert Van Geest
