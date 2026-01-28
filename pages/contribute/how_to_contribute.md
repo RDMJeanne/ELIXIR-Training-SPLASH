@@ -25,14 +25,15 @@ The easiest way to suggest improvements, report problems or request new content:
 
 ## Before you contribute
 
+* Check the [technical documentation](technical_documentation) for guidelines on file structure, naming conventions, and metadata
 * Follow our [style guide](style_guide) for consistency
 * Respect copyright - see our [copyright guidelines](copyright)
-* Review the [page metadata guide](https://elixir-belgium.github.io/elixir-toolkit-theme/page_mechanics) to understand how to structure your content
+* Check out the [ETT documentation](https://elixir-belgium.github.io/elixir-toolkit-theme) for further functionality of the website
 * Acknowledge co-contributors in your page metadata with their permission
 
 ## Contributor acknowledgement
 
-Contributors listed in page metadata appear at the bottom of each page and on our [contributors page](contributors). To link your GitHub, ORCID or email, add your details to the [CONTRIBUTORS file](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/CONTRIBUTORS.yml).
+Contributors listed in page metadata appear on our [contributors page](contributors). To link your GitHub, ORCID or email, add your details to the [CONTRIBUTORS file](https://github.com/elixir-europe-training/ELIXIR-Training-SPLASH/blob/master/_data/CONTRIBUTORS.yml).
 
 ## Content ownership and governance
 

@@ -3,8 +3,8 @@ title_url: /how_to_contribute
 subitems:
   - title: Propose a new resource
     url: /propose_resource
-  - title: Adding resources
-    url: /adding_resources
+  - title: Technical documentation
+    url: /technical_documentation
   - title: Contributing via GitHub
     url: /contributing_via_github
   - title: For editors

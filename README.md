@@ -25,8 +25,6 @@ Do you want to help with this project? Please check out following pages for more
 
 Do you wish to contact the editors of this project? Use [training-splash@elixir-europe.org](mailto:training-splash@elixir-europe.org)
 
-If you want to build the website locally, please have a look at our [Git tutorial](https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/working_with_git).
-
 ## License
 
 The process documents and data are made available under a CC-BY license. Software are made available under an MIT license. More information about our license can be found on our [license](LICENSE) page.
@@ -46,13 +44,15 @@ We would like to thank Christof De Bo for creating the custom icons for the SPLA
 
 Built with the [![theme badge](https://img.shields.io/badge/ELIXIR%20toolkit%20theme-jekyll-blue?color=0d6efd)](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
-## Running locally with Docker Compose
+## Running locally
+
+For detailed instructions on running the site locally (with or without Docker), see our [technical documentation](https://elixir-europe-training.github.io/ELIXIR-Training-SPLASH/technical_documentation#running-the-site-locally).
+
+### Quick start with Docker
 
 This repository ships a Dockerfile and a Compose configuration so you can run and develop the site locally without installing Ruby, Jekyll and the gems on your host machine.
 
 Prerequisites: Docker Desktop (or any recent Docker Engine) installed and running on your machine.
-
-Quick start (rebuild when you change `Gemfile` or `Gemfile.lock`):
 
 ```bash
 # build the jekyll image (use --no-cache if you want a clean rebuild)
