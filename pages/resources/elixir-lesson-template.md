@@ -10,6 +10,9 @@ objective: |
 
 tags: [elixir, develop, template]
 
+contributors:
+  - Alexia Cardona
+  - Geert van Geest
 contacts:
   - name: Geert van Geest
     email: geert.vangeest@sib.swiss

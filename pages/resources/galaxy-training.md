@@ -17,6 +17,11 @@ objective: |
 
   GTN is a one-stop resource for **learners, training developers, and organizers**, supporting everything from individual skill-building to global training initiatives.
 
+contributors:
+  - Saskia Hiltemann
+  - Bérénice Batut
+  - Helena Rasche
+
 contacts:
   - name: Saskia Hiltemann
     email: saskiahiltemann@gmail.com

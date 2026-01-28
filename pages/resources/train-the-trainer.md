@@ -9,6 +9,9 @@ description: |
 objective: |
   The programme objective is to give instructors tools and tips for providing an enriching learning experience to trainees, irrespective of topic, and to include best-practice guidance on course and training material development. 
 
+
+
+contributors: [Allegra Via, Krzysztof Poterlowicz, Lisanna Paladin, Patricia Palagi]
 contacts:
   - name: Allegra Via
     email: allegra.via@uniroma1.it

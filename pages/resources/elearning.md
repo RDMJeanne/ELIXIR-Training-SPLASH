@@ -10,6 +10,8 @@ objective: |
   * Define and improve curation processes for e-learning content, especially for inclusion in the TeSS training registry
   * Participate in collaborative development and sharing of e-learning resources across the ELIXIR network
 
+contributors:
+  - Alexander Botzki
 contacts:
   - name: Alexander Botzki
     email: alexander.botzki@vib.be

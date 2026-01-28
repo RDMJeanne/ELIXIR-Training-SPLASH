@@ -9,6 +9,12 @@ description: |
 objective: |
   For training providers, TeSS provides opportunities to promote training events and news; for trainers, the portal offers an environment for sharing materials and event information; for trainees, it offers a convenient gateway via which to identify relevant training events and resources.
 
+
+contributors:
+  - Carole Goble
+  - Finn Bacall
+  - Hedi Peterson
+
 contacts:
   - name: TeSS Support
     email: tess-support@googlegroups.com
