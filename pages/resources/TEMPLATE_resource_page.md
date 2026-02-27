@@ -13,20 +13,19 @@ objective: |
 
   * markdown
   * example 
-contributors: [Alexander Botzki, Mihail Anton, Alexia Cardona]
-coordinators: [Alexia Cardona]
+
+contributor: [Alexia Cardona] # List of main responsible for maintainig the reseource on SPLASH
 contacts:
   - name: Contact Train the Trainers team
     email: jona.doe@example.org
   - name: John Doe
     email: john.doe@example.org
-
-#OPTIONAL FIELDS
-
 # Tags to categorize the resource (see _data/resource_tags.yml for available tags)
 # Available categories: organization (elixir, goblet), lifecycle (plan, design, develop, deliver, evaluate), 
 # topic (fair-training, train-the-trainer, quality-metrics, catalogue, elearning, certification, community)
 tags: [elixir, plan, design, fair-training]
+
+#OPTIONAL FIELDS
 
 mission: |
   ##### This is a multiline
@@ -38,13 +37,13 @@ benefit: |
 
   * markdown
   * example
-#licenses:
-#  - name: CC BY 4.0 Deed
-#    icon: ccby.png
-#    url: https://creativecommons.org/licenses/by/4.0/deed.en
-#  - name: MIT
-#    icon: mit.png
-#    url: https://opensource.org/license/mit/
+licenses:
+ - name: CC BY 4.0 Deed
+   icon: ccby.png
+   url: https://creativecommons.org/licenses/by/4.0/deed.en
+ - name: MIT
+   icon: mit.png
+   url: https://opensource.org/license/mit/
 publications:
   - title: Publication example 1
     url: https://elixir-europe.org/

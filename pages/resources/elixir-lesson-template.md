@@ -8,14 +8,9 @@ description: |
 objective: |
   The ELIXIR template can be used to make and host lessons via a website. This website has an ELIXIR look and feel, and allows you to share texts, exercises and presentations with your audience.
 
-tags: [elixir, develop]
+tags: [elixir, develop, template]
 
 contributors:
-  - Alexia Cardona
-  - Elin Kronander
-  - Geert van Geest
-  - Jose Alejandro Romero Herrera
-coordinators:
   - Alexia Cardona
   - Geert van Geest
 contacts:

@@ -13,17 +13,9 @@ objective: |
   * Establish a community of practice to share knowledge, experiences, and ideas
 
 #OPTIONAL FIELDS
-tags: [elixir, design, develop, learning-paths, community]
+tags: [elixir, plan, design, learning-paths, community]
 
 contributors:
-  - Alexia Cardona
-  - Bérénice Batut
-  - Eva Alloza
-  - Helena Schnitzer
-  - Jessica Lindvall
-  - Loredana Le Pera
-  - Mihail Anton
-coordinators:
   - Alexia Cardona
   - Jessica Lindvall
   - Loredana Le Pera
@@ -39,7 +31,7 @@ contacts:
 mailingList: https://signup.aai.lifescience-ri.eu/registrar/?vo=elixir&group=Community%3ATraining
 funding:
   - name: ELIXIR
-    logo: funder_example_1_logo.png
+    logo: elixir-logo.png
     url: https://elixir-europe.org/ 
 logo:
 ---

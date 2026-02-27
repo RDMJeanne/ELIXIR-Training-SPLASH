@@ -5,7 +5,7 @@ topnav_title: ""
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 # description: "ELIXIR Training SPLASH"
 # Metadata description of the website
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@5.0.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@6.0.0
 repository: elixir-europe-training/ELIXIR-Training-SPLASH
 baseurl: "/ELIXIR-Training-SPLASH"
 
@@ -65,6 +65,23 @@ defaults:
       path: "pages/about"
     values:
       sidebar: about
+  -
+    scope:
+      path: ""
+      type: "ttt_community"
+    values:
+      layout: "profile"
+  -
+    scope:
+      path: "pages/ttt_modules"
+    values:
+      layout: "module"
+      permalink: "/ttt-modules/:basename/"
+
+collections:
+  ttt_community:
+    output: true
+    permalink: /ttt-community/:name/
 
 plugins:
   - jemoji

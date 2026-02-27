@@ -13,10 +13,6 @@ contributors:
   - Geert van Geest
   - Patricia Palagi
 
-coordinators:
-  - Geert van Geest
-  - Patricia Palagi
-
 contacts:
   - name: Glittr.org contact
     email: info@glittr.org
@@ -24,7 +20,7 @@ contacts:
 
 
 #OPTIONAL FIELDS
-tags: [catalogue, plan, develop, ch]
+tags: [catalogue, design, ch]
 
 licenses:
   - name: MIT License

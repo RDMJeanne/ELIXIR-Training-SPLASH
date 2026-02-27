@@ -14,14 +14,10 @@ objective: |
   * Be able to teach TtT course materials effectively
   * Have significantly improved their teaching approach as a result of the Programme’s frequent formative assessment and reflection practice
 
-tags: [elixir, train-the-trainer, design, deliver]
+tags: [elixir, train-the-trainer, plan, design, develop, deliver, evaluate]
 
-# contributors: [Piv Gopalasingam (EBI), Bruna Piereck (BE), Katarzyna Kamieniecka (UK), Krzysztof Poterlowicz (UK), Helena Schnitzer (DE), Lisanna Paladin (DE), Jessica Lindvall (SE), Piv Gopalasingam (EBI), Erin Calhoun (NO), Roland Krause (LU), Katharina Heil (Hub), Daniel Wibberg (DE), Renato Alves (DE)]
-contributors: 
-  - Gil Poiares-Oliveira
-  - Allegra Via
 
-coordinators: [Allegra Via, Gil Poiares-Oliveira]
+contributors: [Allegra Via, Gil Poiares-Oliveira]
 contacts:
   - name: Allegra Via
     email: allegra.via@uniroma1.it

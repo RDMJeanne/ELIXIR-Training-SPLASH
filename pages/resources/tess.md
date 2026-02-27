@@ -9,23 +9,8 @@ description: |
 objective: |
   For training providers, TeSS provides opportunities to promote training events and news; for trainers, the portal offers an environment for sharing materials and event information; for trainees, it offers a convenient gateway via which to identify relevant training events and resources.
 
-contributors:
-  - Aitor Apaolaza
-  - Alexander Botzki
-  - Alexia Cardona
-  - Carole Goble
-  - Eva Alloza
-  - Finn Bacall
-  - Fotis Psomopoulos
-  - Hedi Peterson
-  - Ivan Kuzmin
-  - Jessica Lindvall
-  - Loredana Le Pera
-  - Melissa Burke
-  - Munazah Andrabi
-  - Olivier Sand
 
-coordinators:
+contributors:
   - Carole Goble
   - Finn Bacall
   - Hedi Peterson
@@ -58,8 +43,11 @@ video: https://www.youtube.com/embed/zjfrEa9o6zg?si=gfC81hv72ospvOpg
 mailingList: tess@elixir-europe.org
 funding:
   - name: ELIXIR Programme
-    logo: elixir.png
+    logo: elixir-logo.png
     url: https://elixir-europe.org/ 
+  - name: OSCARS
+    logo: OSCARS-logo.svg
+    url: https://oscars-project.eu/projects/mtess-x-scaling-training-portal-federation-ris-through-multi-tenanting-and-exchange
 logo: tess_logo.png
 screenshots:
   - screenshot_tess_1.png
