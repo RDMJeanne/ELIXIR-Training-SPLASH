@@ -1,22 +1,21 @@
 ---
 # MANDATORY FIELDS
-id: ttt-concept-rdm # This id should match with the testimonials [ttt, tess, ]
+id: train-the-trainer-concept-on-rdm # This id should match with the testimonials [ttt, tess, ]
 title: Train-the-Trainer Concept on Research Data Management
 resourceUrl: https://doi.org/10.5281/zenodo.4071470
 description: |
   ##### Content
-* RDM topics around the life cycle  
-* social components of training
-* didactical components incl. collection of training methods
-* organizational components
-* slide deck and training script for two-day train-the-trainer workshop
+  * RDM topics around the life cycle  
+  * social components of training
+  * didactical components incl. collection of training methods
+  * organizational components
+  * slide deck and training script for two-day train-the-trainer workshop
 objective: |
   ##### Objective
   * provide information for experienced Research Data Management (RDM) professionals
   * document the train-the-trainer workshop as it was held many times
   * enable others to mix and match parts and hold their own (train-the-trainer) RDM workshop
-contributors: [Katarzyna Biernacka, Castillo Upiachihua, Claudia Beatriz, Ron Dockhorn, Claudia Engelhardt, Laura Grunwald-Eckhardt, Kerstin Helbig, Juliane Jacob, tereza Kalová, Adienne Karsten, Kristin Meier, Andreas Mühlichen, Janna Neumann, Britta Petersen
-Pascal Scherreiks, Benjamin Slowig, Ute Trautwein-Bruns, Jeanne Wilbrandt, Cord Wiljes]
+contributors: [Katarzyna Biernacka, Castillo Upiachihua, Claudia Beatriz, Ron Dockhorn, Claudia Engelhardt, Laura Grunwald-Eckhardt, Kerstin Helbig, Juliane Jacob, tereza Kalová, Adienne Karsten, Kristin Meier, Andreas Mühlichen, Janna Neumann, Britta Petersen, Pascal Scherreiks, Benjamin Slowig, Ute Trautwein-Bruns, Jeanne Wilbrandt, Cord Wiljes]
 coordinators: [Katarzyna Biernacka]
 contacts:
   - name: Katarzyna Biernacka
@@ -36,8 +35,6 @@ licenses:
 publications:
   - title: Train-the-Trainer Concept on Research Data Management
     url: https://doi.org/10.5281/zenodo.4071470
-citations: |
-Biernacka, K., Castillo Upiachihua, C. B., Dockhorn, R., Engelhardt, C., Grunwald-Eckhardt, L., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Scherreiks, P., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., & Wiljes, C. (2024). Train-the-Trainer Concept on Research Data Management (5.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.13927614
 ---
 
 ## General Concept and Application
